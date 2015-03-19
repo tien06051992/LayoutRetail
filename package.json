@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "name": "",
+  "description": "",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.2.3",
+    "gulp": "^3.8.11",
+    "gulp-changed": "^1.2.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "http-server": "^0.7.2"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -p 8000"
+  }
+}

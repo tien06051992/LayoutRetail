@@ -1,0 +1,18 @@
+{
+  "name": "demo glup",
+  "version": "0.0.1",
+  "authors": [
+    "Toan Ha <tien06051992@gmail.com>"
+  ],
+  "description": "nothing",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
