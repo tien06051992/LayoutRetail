@@ -133,7 +133,7 @@ ul.ul-non-list-style{
 
 .banner {
 	background: url('/img/banner.jpg') no-repeat;
-	height: 200px;
+	min-height: 200px;
 }
 
 .banner h3 {
