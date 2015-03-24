@@ -1,0 +1,58 @@
+/* ------------------------------------------------- REPONSIVE ---------------------------------------------------------*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.menu .navbar-nav {
+		float: left;
+		width: 100%;
+	}
+	.menu .navbar-nav li {
+		width: 100%;
+	}
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.menu .navbar-nav {
+		float: left;
+		width: 100%;
+	}
+	.menu .navbar-nav li {
+		width: 100%;
+		background: none;
+	}
+
+	.banner {
+		background: none;
+		min-height: inherit;
+	}
+}
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+	.menu .navbar-nav {
+		float: left;
+		width: 100%;
+	}
+	.menu .navbar-nav li {
+		width: 100%;
+		background: none;
+	}
+	.banner {
+		background: none;
+		min-height: 1px;
+	}
+
+}

@@ -1,0 +1,33 @@
+
+/* ==========================================================================
+   chauhuynh's custom styles
+   ========================================================================== */
+   
+.list-retail .carousel {
+	padding-top: 45px;
+}
+.list-retail .carousel-control {
+	width: 15px;
+	text-shadow: none;
+	color: #c5c5c5;
+}
+
+.list-retail .carousel-control i {
+	top: 50%;
+	position: absolute;
+}
+.list-retail .item h4 {
+	font-size: 13px;
+	border-top: 1px solid #ebebeb;
+	padding: 5px;
+}
+.list-retail .item .col-md-4 {
+	text-align: center;
+	min-height: 263px
+}
+.list-retail .item p {
+	color: #8bac24;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
