@@ -1,0 +1,46 @@
+
+/* ==========================================================================
+   Tien Le <tien06051992@gmail.com>'s custom styles
+   ========================================================================== */
+/**
+ * Search main retail
+ **/
+.search-page-main .wrap-title .view-style{
+	float: left;
+}
+
+
+/* ------------------------------------------------- REPONSIVE ---------------------------------------------------------*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.retail-btn-group {
+		float: left;
+		margin-bottom: 15px;
+	}
+}
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.retail-btn-group {
+		float: left;
+		margin-bottom: 15px;
+	}
+}
+
