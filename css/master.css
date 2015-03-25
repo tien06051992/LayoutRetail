@@ -206,16 +206,16 @@ footer {
 .icon-notify {
 	background: url('/img/icon-notify.png') no-repeat;
 }
-.social {
+footer .social {
 	padding: 70px 0px;
 }
-.social i {
+footer .social i {
 	color: #fff;
 	font-size: 18px;
 	margin-right: 15px;
 }
 
-.social .col-md-6 p {
+footer .social .col-md-6 p {
 	font-size: 11px;
 	color: #fff;
 	text-align: right;

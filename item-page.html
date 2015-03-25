@@ -10,8 +10,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.theme.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.transitions.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/tien-common.css">
@@ -20,6 +22,8 @@
         <link rel="stylesheet" href="css/reponsive.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -109,6 +113,60 @@
         <div class="row item-page">
           <!--left-content-->
           <div class="col-md-8">
+            <div class="row">
+              <!--slide-show-image-retail-->
+              <div class="col-md-6 slide-show-image-retail">
+                 <div class="main-image">
+                    <img src="img/item_page_no_comment1.png" alt="Placeholder" class="custom">
+                  </div>
+
+                  <ul class="ul-non-list-style thumbnails">
+                    <li><a href="img/item_page_no_comment1.png"><img src="img/item_page_no_comment1.png" alt="Thumbnails"></a></li>
+                    <li><a href="img/item_page_no_comment.png"><img src="img/item_page_no_comment.png" alt="Thumbnails"></a></li>
+                    <li><a href="img/item_page_no_comment2.png"><img src="img/item_page_no_comment2.png" alt="Thumbnails"></a></li>
+                    <li><a href="img/item_page_no_comment2.png"><img src="img/item_page_no_comment2.png" alt="Thumbnails"></a></li>
+                  </ul>
+              </div>
+
+              <!--detail-infor-retail-->
+              <div class="col-md-6 detail-infor-retail">
+                <h4 class="title">Sam Sung Galaxy S6</h4>
+                <div class="row view-number">
+                  <div class="col-md-6">S960V</div>
+                  <div class="col-md-6"><span class="glyphicon glyphicon-ok"></span>11 người đã xem</div>
+                </div>
+                <div class="infor-retail condition">Condition New</div>
+                <div class="infor-retail price">$ 999</div>
+                <div class="infor-retail order">
+                  <span class="glyphicon glyphicon-minus minus-quantity"></span>
+                  <input id="quantity" class="quantity" value="1555555">
+                  <span class="glyphicon glyphicon glyphicon-plus plus-quantity"></span>
+                  <button class="reset-style-button btn-color-green btn-order-retail">ORDER</button>
+                </div>
+                <div class="infor-retail social">
+                  Like it? Share it:
+                  <i class="fa fa-facebook-official"></i>
+                  <i class="fa fa-linkedin-square"></i>
+                  <i class="fa fa-twitter-square"></i>
+                  <i class="fa fa-pinterest-square"></i>
+                  <div class="g-plusone" data-size="small" ... ></div>
+                  <!-- <i class="fa fa-google-plus-square"></i> -->
+                </div>
+              </div>
+
+              <!--description-->
+              <div class="col-md-12 description">
+                <div class="wrap-title">
+                  <div class="title">
+                   Description
+                    <span class="triangle-title"></span>
+                  </div>
+                </div>
+                <div class="detail-des">
+                  The shoulder harness is length adjustable, to fit you just right. The zipped pockets on each side of the hipbelt allow quick and easy access to smaller items like phone, powerbar, GPS etc. On top of the main compartment zipper you will find another smaller conveniently placed zipped wallet/key pocket. The side compressors are designed to run either under or over the stretch powermesh side pockets. On the front of the pack you also have a large powermesh pocket, which is ideal for a wet jacket or extra layer of clothing. Keeping hydrated during activity is essential and re-filling your hydration reservoir has been made easy with the quick access external hydration sleeve.
+                </div>
+              </div>
+            </div>
           </div>
           <!--/left-content-->
           <div class="col-md-4">
@@ -174,6 +232,106 @@
               </div>
             </div>
           </div>
+
+          <!--slider-->
+          <div class="col-md-12 list-retail-related">
+          <div class="wrap-title">
+              <div class="title">
+                RELATED PRODUCTS
+                <span class="triangle-title"></span>
+              </div>
+              <div class="list-retail-related-customNagigation">
+                  <i class="prev fa fa-angle-left"></i>
+                  <i class="next fa fa-angle-right"></i>
+                </div>
+            </div>
+          <div class="wrap-slide-retail">
+              <div id="list-related-retail" class="list-new-sale-retail owl-carousel owl-theme">
+                  <a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-orange">Sale</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a><a href="#">
+                    <div class="item">
+                        <span class="status bg-green">New</span>
+                        <img src="img/stp_feature_img_retail.png" alt="feature-img-retail">
+                        <h5>Printed Summer Dress</h5>
+                        <span class="new-price">$28.98</span>
+                        <span class="price">$30.51</span>
+                    </div>
+                  </a>
+              </div>
+              
+          </div>
+          </div>
         </div>
       </div>
     </div>
@@ -219,9 +377,16 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/slideshow/jquery.simpleGal.min.js"></script>
+
+        <script src="js/item-page-controller.js"></script>
 
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+        var itemPage = new ItemPageControlller();
+        itemPage.slideImageSaleAndNew();
+        </script>
     </body>
 </html>

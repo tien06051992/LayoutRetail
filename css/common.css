@@ -18,11 +18,11 @@ a{
 a, h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Open Sans' sans-serif;
 }
-ul.ul-non-list-style{
+ul.ul-non-list-style {
 	list-style: none;
 }
 
-#container .container{
+#container .container {
 	max-width: 960px !important;
 	margin: 0 auto;
 	width: 100%;
@@ -58,6 +58,13 @@ ul.ul-non-list-style{
 }
 
 
+.btn-color-green {
+	background: #8bac24;
+}
+
+.btn-color-green:hover {
+	background: #bbd615;
+}
 
 
 
