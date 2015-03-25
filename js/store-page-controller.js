@@ -23,4 +23,18 @@ function StorePageControlller () {
 			owl.trigger('owl.next');
 		});
 	}
+
+	this.changeShowListStyle = function(style) {
+		if(style == 'grid') {
+			$(".view-style .list").removeClass('active');
+			$(".view-style .grid").addClass('active');
+			$(".wrap-list-retail .list-retail").removeClass('list-style');
+			$(".wrap-list-retail .list-retail").addClass('grid-style');
+		}else {
+			$(".view-style .list").addClass('active');
+			$(".view-style .grid").removeClass('active');
+			$(".wrap-list-retail .list-retail").addClass('list-style');
+			$(".wrap-list-retail .list-retail").removeClass('grid-style');
+		}
+	}
 }
