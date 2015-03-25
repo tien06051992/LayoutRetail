@@ -10,6 +10,11 @@
 }
 .store-page-main .promotion-top-banner .feature-img {
 	float: left;
+	max-width: 540px;
+	width: 100%;
+}
+.store-page-main .promotion-top-banner .feature-img img{
+	max-width: 100%;
 }
 .store-page-main .promotion-top-banner .info {
 	float: right;
@@ -72,6 +77,7 @@
 .list-new-sale-retail .item img {
 	margin-bottom: 55px;
 	margin-top: 90px;
+	max-width: 100%;
 }
 .list-new-sale-retail .item .status{
 	display: block;
@@ -116,6 +122,10 @@
 /**
  * Promotion mid
  **/
+.promotion-mid-banner{
+	display: inline-block;
+	width: 100%;
+}
 .promotion-mid-banner img {
 	float: left;
 	width: 33%;
@@ -170,5 +180,156 @@
 	width: 25px;
 	height: 25px;
 	padding: 0;
+}
+
+
+/**
+ * List retails Grid style
+ */
+ .list-retail{
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+.list-retail.grid-style li{
+	max-width: 200px;
+	float: left;
+	text-align: center;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+.list-retail.grid-style li{
+	max-width: 200px;
+	float: left;
+}
+.list-retail.grid-style .feature-image{
+	border-bottom: 1px solid #ebebeb;
+}
+.list-retail.grid-style .feature-image img{
+	max-width: 100%;
+	margin: 17px;
+}
+.list-retail h2{
+	font-size: 13px;
+	color: #191919;
+	line-height: 1.5em;
+	font-weight: 700;
+}
+.list-retail .price{
+	color: #8bac24;
+	font-size: 14px;
+	font-weight: 700;
+}
+.list-retail.grid-style .description{
+	display: none;
+}
+
+/**
+ * Grid retails Grid style
+ */
+.list-retail.list-style .feature-image{
+	float: left;
+	margin-right: 10px;
+}
+.list-retail.list-style .feature-image img{
+	max-width: 100%;
+}
+.list-retail.list-style li{
+	margin: 40px 0;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+/* ------------------------------------------------- REPONSIVE ---------------------------------------------------------*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.list-new-sale-retail-customNagigation .next{
+		right: 0;
+	}
+	.list-new-sale-retail-customNagigation .prev{
+		left: 0;
+	}
+	.price-to-price input{
+		width: 45px;
+	}
+	.price-to-price button{
+		margin-top: 10px;
+	}
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.list-new-sale-retail-customNagigation .next{
+		right: 0;
+	}
+	.list-new-sale-retail-customNagigation .prev{
+		left: 0;
+	}
+	.view-style {
+		float: none;
+		margin: 15px 0;
+	}
+	.wrap-title .title .triangle-title {
+		display: none;
+	}
+	.wrap-title .title{
+		width: 100%;
+	}
+	.list-retail.grid-style li{
+		  max-width: 100%;
+		  float: none;
+		  margin: 0 auto;
+	}
+	.list-retail.list-style .feature-image {
+		width: 50px;
+	}
+}
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.list-new-sale-retail-customNagigation .next{
+		right: 0;
+	}
+	.list-new-sale-retail-customNagigation .prev{
+		left: 0;
+	}
+	.view-style {
+		float: none;
+		margin: 15px 0;
+	}
+	.wrap-title .title .triangle-title{
+		display: none;
+	}
+	.wrap-title .title{
+		width: 100%;
+	}
+	.list-retail.grid-style li{
+		  max-width: 100%;
+		  float: none;
+		  margin: 0 auto;
+	}
+	.list-retail.list-style .feature-image{
+		width: 50px;
+	}
 }
 
