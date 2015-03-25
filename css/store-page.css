@@ -197,20 +197,23 @@
  }
 .list-retail.grid-style li{
 	max-width: 200px;
+	min-height: 300px;
 	float: left;
 	text-align: center;
 	margin-right: 30px;
 	margin-bottom: 30px;
-	/*-webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;*/
+	-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
 }
-.list-retail.grid-style li{
-	max-width: 200px;
-	float: left;
+.list-retail.grid-style li:hover,
+.list-retail.list-style li:hover{
+	-webkit-box-shadow: 2px 2px 10px 1px #757575;
+	box-shadow: 2px 2px 10px 1px #757575;
 }
+
 .list-retail.grid-style .feature-image{
 	border-bottom: 1px solid #ebebeb;
 }
@@ -223,9 +226,15 @@ transition: all 1s ease-in-out;*/
 	color: #191919;
 	line-height: 1.5em;
 	font-weight: 700;
+	margin-top: 0;
 }
 .list-retail .price{
 	color: #8bac24;
+	font-size: 14px;
+	font-weight: 700;
+}
+.list-retail .fixed{
+	color: #191919;
 	font-size: 14px;
 	font-weight: 700;
 }
@@ -245,11 +254,11 @@ transition: all 1s ease-in-out;*/
 }
 .list-retail.list-style li{
 	margin: 40px 0;
-	/*-webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;*/
+	-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
 }
 
 /* ------------------------------------------------- REPONSIVE ---------------------------------------------------------*/
