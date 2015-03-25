@@ -1,0 +1,96 @@
+
+/* ==========================================================================
+   chauhuynh's custom styles
+   ========================================================================== */
+
+.item-page {
+	padding: 20px 0px;
+}
+.wrap-title {
+	width: 100%;
+	border-bottom: none; 
+}
+.wrap-title .title{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	background: #8bac24;
+	position: relative;
+	display: inline-block;
+	padding: 10px 15px 9px 15px;
+}
+.wrap-title .title .triangle-title{
+	display: block;
+	width: 34px;
+	height: 52px;
+	position: absolute;
+	right: -34px;
+	top: 0;
+	background: url('../img/triangle-title-green.png') no-repeat;
+}
+
+.item-page .top-seller,
+.item-page .iformation-contact {
+	background: #f8f8f8;
+	border: 1px solid #e1e1e1;
+	padding: 15px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.item-page .iformation-contact button {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.item-page .iformation-contact .btn-color-orange {
+	margin-bottom: 15px;
+	color: #fff;
+	margin-top: 15px;
+}
+.item-page .iformation-contact h4 {
+	color: #616060;
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: 0px;
+}
+
+.item-page .iformation-contact .col-md-6 {
+	font-size: 13px;
+}
+
+.item-page .item-top-seller {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 40px;
+}
+
+.item-page .item-top-seller img {
+	border: 1px solid #cdcbc7;
+	margin-bottom: 15px;
+}
+
+.item-page .item-top-seller h4 {
+	color: #424141;
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+
+.item-page .item-top-seller p {
+	color: #424141;
+	font-size: 13px; 
+	margin-bottom: 0px;
+}
+
+.item-page .item-top-seller span {
+	color: #d22e47;
+	font-size: 13px;
+	font-weight: 700;
+}
+.item-page .item-top-seller .img-feature {
+	padding-right: 0px;
+}

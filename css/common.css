@@ -46,6 +46,17 @@ ul.ul-non-list-style{
 .btn-color-orange:hover {
 	background: #fe900b;
 }
+.btn-border-orange {
+	background: #f8f8f8;
+	border: 1px solid #ff9e28;
+	color: #ff9e28;
+}
+
+.btn-border-orange:hover {
+	background: #ff9e28;
+	color: #fff;
+}
+
 
 
 
