@@ -163,9 +163,9 @@
 
 
 /*-------------------------- .list-retail-related ------------------------- */
-.list-retail-related {
+/*.list-retail-related {
 	margin-top: 40px;
-}
+}*/
 .list-retail-related .wrap-title{
 	border-bottom: 1px solid #bbd615;
 }
@@ -185,7 +185,7 @@
 .list-retail-related .wrap-title .title{
 	font-size: 18px;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 600;
 	background: #8bac24;
 	position: relative;
 	display: inline-block;
@@ -285,9 +285,11 @@
 	float: left;
 	top: 0px;
 	border: 1px solid #e1e1e1;
+	cursor: pointer;
 }
 
 .order .quantity {
+	border: none;
 	background: #c1bfbf;
 	padding: 13px 10px;
 	width: 85px;
@@ -296,6 +298,7 @@
 	border-bottom: 1px solid #e1e1e1;
 	outline-style: none;
 	text-align: center;
+	display: inline-block;
 }
 
 .btn-order-retail {
@@ -325,4 +328,5 @@
 	min-height: 265px;
 	margin-top: 20px;
 	line-height: 1.7;
+	margin-bottom: 40px;
 }
