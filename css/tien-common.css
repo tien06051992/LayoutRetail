@@ -88,3 +88,40 @@
 	background: #8bac24;
 	color: #fff;
 }
+
+.retail-modal .modal-content{
+	border-radius: 11px; 
+	-webkit-box-shadow: 1px 1px 5px 1px #3B3B3B;
+box-shadow: 1px 1px 5px 1px #3B3B3B;
+}
+.retail-modal .modal-header{
+	background: #8bac24;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	border-radius: 11px 11px 0 0;
+}
+.retail-modal .modal-body{
+	padding: 45px 48px;
+}
+
+.retail-modal .modal-body .form-group input{
+	font-size: 14px;
+	color: #b1b1b2;
+	padding: 25px 11px;
+	border: 1px solid #b1b1b2;
+	background: #fff;
+}
+.retail-modal .modal-body .form-group button{
+	width: 100%;
+	background: #ff9e28;
+	padding: 17px 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+.text-center{
+	text-align: center;
+}

@@ -73,6 +73,9 @@
 	background: url('/img/border-menu.png') no-repeat;
 	background-position: 100%;
 }
+.menu .navbar-nav li:last-child{
+	background: none;
+}
 .menu .navbar-nav>li.active,
 .menu .navbar-nav>li>a:hover,
 .menu .navbar-nav>li>a:focus {

@@ -3,12 +3,12 @@
  */
 function StorePageControlller () {
 
-	this.slideImageSaleAndNew = function() {
-		var owl = $("#list-new-sale-retail");
+	this.slideImageSaleAndNew = function(element,numItems) {
+		var owl = $(element);
 
 		owl.owlCarousel({
-			autoPlay: 3000, //Set AutoPlay to 3 seconds
-			items : 4,
+			autoPlay: false, //Set AutoPlay to 3 seconds
+			items : numItems,
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3],
 			pagination: false
