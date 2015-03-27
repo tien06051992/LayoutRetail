@@ -113,9 +113,12 @@
 
 .search-bar {
 	background: #8bac24;
-	padding: 10px 0px;
+	padding: 10px 0px 0px 0px;
 }
-
+.search-bar .form-group {
+	margin-bottom: 10px;
+	min-height: 42px;
+}
 .search-bar .form-control {
 	height: 42px;
 	font-size: 13px;
@@ -186,6 +189,9 @@ footer {
 .information {
 	padding: 70px 0px;
 }
+.information .col-md-4 {
+	min-height: 50px;
+}
 .information p {
 	color: white;
 	font-size: 18px;
@@ -235,7 +241,7 @@ footer .social .col-md-6 p {
     color: #fff;
     top: auto;
     left: auto;
-    right: 50%;
+    right: 30px;
     bottom: 50px;
     cursor: pointer;
     background: url('/img/btn-go-top.png') no-repeat;

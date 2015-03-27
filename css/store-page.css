@@ -136,11 +136,20 @@
 /**
  * Side Bar Store
  */
+
+.side-bar-store {
+ 	min-height: 30px;
+}
 .side-bar-store h6{
  	color: #191919;
  	font-size: 14px;
  	font-weight: 600;
  	margin: 20px 0;
+}
+.side-bar-store .navbar-collapse {
+	padding: 0px;
+	width: 100%;
+	float: left;
 }
 .side-bar-store .list-radio {
  	list-style: none;

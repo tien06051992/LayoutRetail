@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/tien-common.css">
     <link rel="stylesheet" href="css/store-page.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
@@ -83,12 +84,12 @@
             <!--search-bar-->
             <div class="search-bar">
                 <div class="container">
-                    <form class="form-inline">
+                    <form class="row">
                         <div class="col-md-5 form-group">
                             <input type="text" class="form-control" id="exampleInputName2" placeholder="Find Products...">
                         </div>
                         <div class="col-md-3 form-group">
-                            <select class="form-control">
+                            <select class="form-control"  style="width: 100%">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -223,8 +224,12 @@
                     <a href="#"><img src="img/stp_promo3.jpg" alt="banner"></a>
                 </div>
                 <!-- / promotion-mid-banner -->
-                <div class="wrap-main-retails row">
-                    <div class="col-md-3 col-sm-3 side-bar-store">
+                <div class="row wrap-main-retails">
+                    <div class="col-md-3 side-bar-store">
+                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#side-bar-store" aria-expanded="false">
+                          Search <span class="glyphicon glyphicon-chevron-down"></span>
+                      </button>
+                      <nav class="collapse navbar-collapse" id="side-bar-store">
                         <h6>Short by:</h6>
                         <ul class="list-radio">
                             <li>
@@ -290,9 +295,10 @@
                                 <button class="bg-green">GO</button>
                             </li>
                         </ul>
+                      </nav>
                     </div>
                     <!-- / side-bar-store -->
-                    <div class="col-md-9 col-sm-9 main-content-retails">
+                    <div class="col-md-9 main-content-retails">
                         <div class="wrap-title">
                             <div class="title">
                                 ALL PRODUCTS
@@ -465,8 +471,7 @@
                                     <div class="feature-image">
                                         <img src="img/watch.png" alt="feature image">
                                     </div>
-                                    <h2>Watch Casio Watch Casio Watch Casio</h2>
-<p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <h2>Watch Casio Watch Casio Watch Casio</h2><p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                                     <p class="price">550$</p>
                                 </li>
                             </ul>
