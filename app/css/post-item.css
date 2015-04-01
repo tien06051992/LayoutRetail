@@ -122,3 +122,36 @@ label.radio-label:before {
 input[type=radio]:checked + label.radio-label:before {
     content: url('/img/img-radio-checked.png');
 }
+
+.wrap-image-upload {
+	  border: 1px solid #8bac24;
+	  border-radius: 4px; 
+	  display: inline-block;
+	  width: 100%;
+	  padding: 10px;
+}
+.wrap-image-upload ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wrap-image-upload ul li{
+	position: relative;
+}
+.wrap-image-upload ul li img{
+	max-width: 100%;
+	height: auto;
+}
+.wrap-image-upload ul li span.icon-close{
+	position: absolute;
+  	top: 10px;
+  	right: 10px;
+  	display: block;
+  	font-size: 21px;
+  	font-weight: 700;
+  	line-height: 1;
+  	color: #000;
+  	cursor: pointer;
+  	background: #fff;
+  	border-radius: 100%;
+}

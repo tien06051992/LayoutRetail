@@ -19,7 +19,7 @@
 
 .logo {
 	text-indent: -9999px;
-	background: url('/img/logo.png') no-repeat;
+	background: url('../img/logo.png') no-repeat;
 	width: 240px;
 	height: 85px;
 	margin-bottom: 0px;
@@ -70,7 +70,7 @@
 }
 
 .menu .navbar-nav>li {
-	background: url('/img/border-menu.png') no-repeat;
+	background: url('../img/border-menu.png') no-repeat;
 	background-position: 100%;
 }
 .menu .navbar-nav li:last-child{
@@ -84,7 +84,7 @@
 	text-decoration: underline !important;
 }
 .menu .navbar-nav>li>span {
-	background: url('/img/border-menu.png') no-repeat;
+	background: url('../img/border-menu.png') no-repeat;
 	display: inline-block;
 	width: 3px;
 	height: 10px;
@@ -99,7 +99,7 @@
 
 
 .banner {
-	background: url('/img/banner.jpg') no-repeat;
+	background: url('../img/banner.jpg') no-repeat;
 	min-height: 200px;
 }
 
@@ -155,11 +155,11 @@
 	color: #191919;
 	font-size: 14px;
 	padding: 0px 20px;
-	background: url('/img/menu-caret-active.png') no-repeat;
+	background: url('../img/menu-caret-active.png') no-repeat;
 	background-position: 0px;
 }
 .item-menu a.collapsed {
-	background: url('/img/menu-caret.png') no-repeat;
+	background: url('../img/menu-caret.png') no-repeat;
 	background-position: 0px;
 }
 
@@ -206,14 +206,14 @@ footer {
 }
 
 .icon-phone {
-	background: url('/img/icon-phone.png') no-repeat;
+	background: url('../img/icon-phone.png') no-repeat;
 }
 .icon-email {
-	background: url('/img/icon-email.png') no-repeat;
+	background: url('../img/icon-email.png') no-repeat;
 }
 
 .icon-notify {
-	background: url('/img/icon-notify.png') no-repeat;
+	background: url('../img/icon-notify.png') no-repeat;
 }
 footer .social {
 	padding: 70px 0px;
@@ -244,8 +244,8 @@ footer .social .col-md-6 p {
     right: 30px;
     bottom: 50px;
     cursor: pointer;
-    background: url('/img/btn-go-top.png') no-repeat;
+    background: url('../img/btn-go-top.png') no-repeat;
 }
 #go-to-top:hover {
-	background: url('/img/btn-go-top-hover.png') no-repeat;
+	background: url('../img/btn-go-top-hover.png') no-repeat;
 }

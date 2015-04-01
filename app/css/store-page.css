@@ -99,6 +99,9 @@
 	font-size: 13px;
 	color: #494848;
 }
+.list-new-sale-retail .item:hover h5 {
+	color: #8bac24;
+}
 .list-new-sale-retail .item .new-price{
 	color: #8bac24;
 }

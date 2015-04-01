@@ -10,10 +10,10 @@ var browserSync = require('browser-sync');
 
 gulp.task('browser-sync', function () {
    var files = [
-      '*.html',
-      'css/*.css',
-      'img/*.png',
-      'js/*.js'
+      'app/*.html',
+      'app/css/*.css',
+      'app/img/*.png',
+      'app/js/*.js'
    ];
 
    browserSync.init(files, {

@@ -1,5 +1,73 @@
 
 /* ==========================================================================
+   chauhuynh's custom styles
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300);
+
+body{
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+a, h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Open Sans' sans-serif;
+}
+ul.ul-non-list-style {
+	list-style: none;
+}
+
+#container .container {
+	max-width: 960px !important;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+.reset-style-button {
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 4px;
+	background: none;
+	box-shadow: none;
+	outline-style: none;
+}
+.btn-color-orange {
+	background: #ff9e28;
+}
+
+
+.btn-color-orange:hover {
+	background: #fe900b;
+}
+.btn-border-orange {
+	background: #f8f8f8;
+	border: 1px solid #ff9e28;
+	color: #ff9e28;
+}
+
+.btn-border-orange:hover {
+	background: #ff9e28;
+	color: #fff;
+}
+
+
+.btn-color-green {
+	background: #8bac24;
+}
+
+.btn-color-green:hover {
+	background: #bbd615;
+}
+
+
+/* ==========================================================================
    Tien Le <tienle@agilsun.com> 's custom styles
    ========================================================================== */
 
@@ -125,3 +193,5 @@ box-shadow: 1px 1px 5px 1px #3B3B3B;
 .text-center{
 	text-align: center;
 }
+
+
