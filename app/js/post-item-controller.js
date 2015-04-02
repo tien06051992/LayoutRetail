@@ -5,12 +5,12 @@ function PostItemControlller () {
 
 	//Update Image placeholder to real image
 	var filesImage = [];
-	var fileIndex = 1; 
+	var fileIndex = 1; // Start at 1 because nth-child css not allow 0
 	this.updateImagesRetail = function(e) {
 
 		//indirect ajax
 		//file collection array
-		if (e.files && e.files[0] && filesImage.length < 5) { // Check have file and fiiles quantiy not bigger than 4		var fileCollection = new Array();
+		if (e.files && e.files[0] && filesImage.length < 5) { // Check have file and fiiles quantiy not bigger than 4
 
 			/*console.log(e.files);*/
 			filesImage[fileIndex] = e.files[0];	
