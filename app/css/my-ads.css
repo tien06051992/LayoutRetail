@@ -1,0 +1,87 @@
+
+/* ==========================================================================
+   chauhuynh's custom styles
+   ========================================================================== */
+
+.search-bar {
+	display: none;
+}
+
+.my-ads .list-order-item .order-item {
+	width: 100%;
+	border-bottom: 1px solid #ebebeb;
+	padding: 24px 0px;
+}
+.my-ads .main-content-my-ads .order-item h2 {
+	color: #191919;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.my-ads .main-content-my-ads .order-item .img-feature {
+	border: 1px solid #d7dbcc;
+}
+
+.my-ads .main-content-my-ads .order-item p {
+	color: #191919;
+}
+.my-ads .main-content-my-ads .order-item p.exceprt {
+	font-size: 13px;
+	line-height: 1.75;
+	min-height: 80px;
+}
+
+.my-ads .main-content-my-ads .order-item p.exceprt a {
+	color: #8bac24;
+}
+.my-ads .main-content-my-ads .order-item p.exceprt a:hover,
+.my-ads .main-content-my-ads .order-item p.exceprt a:focus {
+	color: #ff9e28;
+}
+
+.my-ads .main-content-my-ads .order-item p.price {
+	font-weight: 700;
+}
+
+.my-ads .main-content-my-ads .order-item p.price span {
+	float: right;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.my-ads .main-content-my-ads .order-item .order-item-button {
+	border-radius: 4px;
+	border: 1px solid #c2c2c2;
+	display: inline-block;
+	float: right;
+	width: 130px;
+	height: 30px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.my-ads .main-content-my-ads .order-item .order-item-button:hover,	
+.my-ads .main-content-my-ads .order-item  .order-item-button-active {
+	background: #ff9e28;
+	color: #fff;
+	border: none;
+}
+.my-ads .main-content-my-ads .order-item .description {
+	padding-right: 50px;
+}
+
+.my-ads .group-btn {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+}
+.my-ads .quantity-order {
+	color: #fb1504;
+	font-weight: 700;
+	font-size: 13px;
+	float: right;
+	display: inline-block;
+	margin-top: 15px;
+}

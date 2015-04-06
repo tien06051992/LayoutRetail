@@ -1,0 +1,66 @@
+
+/* ==========================================================================
+   chauhuynh's custom styles
+   ========================================================================== */
+
+.search-bar {
+	display: none;
+}
+
+.my-order .page-title {
+	padding: 15px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.my-order .sort-menu h2 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0px;
+}
+
+.my-order .sort-menu {
+	margin-top: 20px;
+	background: #ebf0df;
+	border: 1px solid #ebf0df;
+	border-radius: 4px;
+}
+
+.my-order .sort-menu .title-sort {
+	padding: 0px 15px;
+	color: #191919;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.my-order .sort-menu .checkbox {
+	margin: 0px;
+}
+
+.my-order .sort-menu .label-radio-sort-by {
+	font-size: 14px;
+}
+
+.my-order .sort-menu label.radio-label:before {
+	content: url('/app/img/sort-by-radio.png');
+}
+
+.my-order .sort-menu input[type=radio]:checked + label.radio-label:before {
+	content: url('/app/img/sort-by-radio-checked.png');
+}
+
+.my-order .sort-menu .table-sort-by {
+	margin-left: 50px;
+}
+
+.my-order label.radio-label {
+	padding: 0px;
+	margin: 0px;
+}
+
+.my-order .sort-date {
+	height: 26px;
+	border: 1px solid #898989;
+	border-radius: 10px;
+	font-size: 14px;
+}

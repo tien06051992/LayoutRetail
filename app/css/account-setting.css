@@ -1,0 +1,41 @@
+
+
+/* ==========================================================================
+   chauhuynh's custom styles
+   ========================================================================== */
+   
+.account-setting {
+	margin: 0px 0px 30px 0px;
+}
+
+.search-bar {
+	display: none;
+}
+
+.account-setting h3.title {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.account-setting .cus-style-form-control label.control-label {
+	text-align: left;
+}
+
+
+.form-account-setting .wrap-image-upload {
+	border: none;
+}
+
+.form-account-setting .wrap-image-upload ul li img {
+	width: 185px;
+	border-radius: 100%;
+	border: 1px solid #dbdad9;
+	cursor: pointer;
+}
+
+.account-setting .cus-style-form-control .avatar-image label.control-label {
+	text-align: center;
+}
+.account-setting .cus-style-form-control .avatar-image .wrap-image-upload ul li {
+	text-align: center;
+}

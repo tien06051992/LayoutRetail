@@ -69,59 +69,7 @@
 .btn-submit-post i {
 	margin-left: 15px;
 }
-.style-checkbox {
-	line-height: 30px;
-}
 
-input[type=checkbox].cus-checkbox {
-    display: none;
-}
-
-label.checkbox-label {
-	cursor: pointer;
-	color: #616060;
-	font-size: 13px;
-	font-weight: 400;
-	padding-left: 0px;
-	padding-top: 5px;
-}
-label.checkbox-label:before {
-    content: url('/img/img-checkbox-befrore.png');
-    display: inline-block;
-    width: 14px;
-    height: 30px;
-    margin-right: 15px;
-    vertical-align: middle;
-}
-
-input[type=checkbox]:checked + label.checkbox-label:before {
-    content: url('/img/img-checkbox-checked.png');
-}
-
-input[type=radio].cus-checkbox {
-    display: none;
-}
-
-label.radio-label {
-	cursor: pointer;
-	color: #616060;
-	font-size: 13px;
-	font-weight: 400;
-	padding-left: 0px;
-	padding-top: 5px;
-}
-label.radio-label:before {
-    content: url('/img/img-radio-befrore.png');
-    display: inline-block;
-    width: 14px;
-    height: 30px;
-    margin-right: 15px;
-    vertical-align: middle;
-}
-
-input[type=radio]:checked + label.radio-label:before {
-    content: url('/img/img-radio-checked.png');
-}
 
 .wrap-image-upload {
 	  border: 1px solid #8bac24;
