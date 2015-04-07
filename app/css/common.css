@@ -89,6 +89,8 @@ ul.ul-non-list-style {
 	background-position: 100%; 
 	padding: 0px 20px;
 }
+
+.page-title h2,
 .page-title ul li a {
 	font-size: 18px;
 	font-weight: 600;
@@ -96,6 +98,11 @@ ul.ul-non-list-style {
 	margin-bottom: 0px;
 	color: #797878;
 }
+
+.page-title h2 {
+	color: #fff;
+}
+
 .page-title ul li a.active {
 	color: #fff;
 }
