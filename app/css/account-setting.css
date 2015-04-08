@@ -39,3 +39,53 @@
 .account-setting .cus-style-form-control .avatar-image .wrap-image-upload ul li {
 	text-align: center;
 }
+
+.account-setting .nav-tabs {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.account-setting .nav-tabs>li {
+	background: url('/app/img/border-tab.png') no-repeat;
+	background-position: 100%;
+	margin-bottom: 0px;
+}
+
+.account-setting .nav-tabs>li:last-child {
+	background: none;
+}
+
+.account-setting .nav-tabs>li a {
+	font-weight: 700;
+	font-size: 16px;
+	color: #616060;
+	border: none;
+}
+
+.account-setting .nav-tabs>li:hover a{
+	background: none;
+	border: none;
+	color: #8bac24;
+}
+.account-setting .nav-tabs>li.active>a, 
+.account-setting .nav-tabs>li.active>a:hover, 
+.account-setting .nav-tabs>li.active>a:focus {
+	border: none;
+	color: #8bac24;
+	background: none;
+}
+
+.account-setting .form-account-setting label.radio-label {
+	margin-right: 15px;
+}
+
+.account-setting .form-account-setting input.email {
+	color: #616060;
+	font-weight: 700;
+	border: none;
+	box-shadow: none;
+	padding-left: 0px;
+}
+.account-setting .form-account-setting input.email[readonly] {
+	background: none;
+}
