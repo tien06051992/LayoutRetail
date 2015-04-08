@@ -12,6 +12,18 @@
 	float: left;
 	max-width: 540px;
 	width: 100%;
+	position: relative;
+}
+.store-page-main .promotion-top-banner .feature-img i {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+}
+.store-page-main .promotion-top-banner .feature-img i:hover {
+	color: #8bac24;
 }
 .store-page-main .promotion-top-banner .feature-img img{
 	max-width: 100%;

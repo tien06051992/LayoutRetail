@@ -37,4 +37,24 @@ function StorePageControlller () {
 			$(".wrap-list-retail .list-retail").removeClass('grid-style');
 		}
 	}
+
+	this.updateImagesRetail = function(e) {
+
+        //indirect ajax
+        //file collection array
+        if (e.files && e.files[0]) { // Check have file and fiiles quantiy not bigger than 4
+
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('.feature-img img').attr('src',e.target.result); // Show image on sreen
+            };
+            reader.readAsDataURL(e.files[0]);
+
+        }
+    }
+
+	//Click image placeholder
+    this.chooseImageUpload = function() {
+        $("#imageBanner").click();
+    }
 }
