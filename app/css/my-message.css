@@ -3,7 +3,151 @@
 /* ==========================================================================
    chauhuynh's custom styles
    ========================================================================== */
-   
-.search-bar {
-	display: none;
+
+.my-message .all-message {
+	margin: 40px 0px;
+}
+
+.my-message .list-all-message {
+	max-height: 542px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.my-message .message-item {
+	padding: 5px;
+	background: #d7dbcc;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.my-message .message-item .avatar {
+	padding-left: 25px;
+}
+.my-message .message-item .avatar img {
+	border-radius: 50%;
+}
+.my-message .exceprt-message {
+	padding-right: 0px;
+}
+
+.my-message .exceprt-message h2 {
+	margin-top: 5px;
+	color: #191919;
+	font-size: 13px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.my-message .exceprt-message p {
+	font-size: 13px;
+	color: #191919;
+	margin-bottom: 0px;
+}
+
+.my-message .time-message {
+	padding: 5px 0px;
+}
+.my-message .time-message span.number-message {
+	display: block;
+}
+.my-message .time-message p {
+	font-size: 13px;
+	color: #898989;
+	padding: 0px 5px 0px 0px;
+}
+
+.my-message .active-message {
+	background: #8ba242;
+}
+
+.my-message .active-message .exceprt-message h2,
+.my-message .active-message .exceprt-message p,
+.my-message .active-message .time-message p {
+	color: #fff;
+}
+
+
+.my-message .chat-message {
+	border: 1px solid #e1e1e1;
+	height: 542px;
+	padding: 0px;
+}
+
+.my-message .item-chat {
+	margin-bottom: 13px;
+}
+
+.my-message .list-chat {
+	padding: 15px;
+	height: 355px;
+	margin-bottom: 15px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.my-message .list-chat .avatar {
+	padding-left: 15px;
+}
+
+.my-message .chat-box {
+	padding: 15px;
+}
+
+.my-message .chat-box .box-content {
+	height: 120px;
+	background: #d7dbcc;
+	border: none;
+	resize: none;
+	color: #868585;
+	font-size: 13px;
+}
+
+.my-message .form-control:focus {
+	box-shadow: none;
+}
+
+.my-message .style-checkbox {
+	float: right;
+}
+
+.my-message .search-message {
+	float: right;
+}
+
+.my-message .search-message .form-group,
+.my-message .search-message .input-group {
+	width: 100%;
+}
+
+.my-message .search-message .input-search-message {
+	padding: 15px;
+	height: 43px;
+	border-radius: 4px;
+	border: none;
+	width: 100%;
+	font-size: 13px;
+}
+
+.title-my-message {
+	background: none !important;
+/*	line-height: 42px;*/
+	padding: 0px;
+}
+
+
+.my-message .page-title {
+	padding: 10px 0px;
+}
+
+.my-message .page-title ul {
+	line-height: 40px;
+}
+
+
+.my-message .search-message .has-success .form-control-feedback {
+	color: #b0afaf;
+	font-size: 20px;
+}
+
+.my-message .search-message .form-control-feedback {
+	top: 5px;
 }
