@@ -8,14 +8,21 @@
 	margin: 40px 0px;
 }*/
 
+/*
+** list-all-message
+*/
+
 .my-message .list-all-message {
 	margin: 40px 0px;
 }
 
 .my-message .list-all-item-message {
 	max-height: 542px;
-	overflow-y: auto;
-	overflow-x: hidden;
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+	background: #d7dbcc;
+	outline-style: none;
+	width: 100% !important;
 }
 
 .my-message .message-item {
@@ -24,9 +31,6 @@
 	border-bottom: 1px solid #ebebeb;
 }
 
-.my-message .message-item .avatar {
-	padding-left: 25px;
-}
 .my-message .message-item .avatar img {
 	border-radius: 50%;
 }
@@ -72,17 +76,21 @@
 	color: #fff;
 }
 
+/*
+** chat-message
+*/
+
 
 .my-message .chat-message {
 	margin: 40px 0px;
 }
 
 .my-message .item-chat {
-	margin-bottom: 13px;
+	margin-bottom: 10px;
+	padding: 15px;
 }
 
 .my-message .list-chat {
-	padding: 15px;
 	height: 355px;
 	margin-bottom: 15px;
 	overflow-y: auto;
@@ -90,12 +98,12 @@
 
 }
 
+/*
+* chat box
+*/
 .my-message .content-chat {
 	border: 1px solid #e1e1e1;
 	height: 542px;
-}
-.my-message .list-chat .avatar {
-	padding-left: 15px;
 }
 
 .my-message .chat-box {
@@ -162,14 +170,35 @@
 	top: 5px;
 }
 
+/*
+* scrollbar
+*/
 
+.my-message .jspVerticalBar {
+	width: 5px;
+	background: #fff;
+	border: none;
+}
+
+.my-message .jspTrack{
+	background: #fff;
+}
+
+.my-message .jspHorizontalBar {
+	display: none;
+}
+
+.my-message .jspDrag {
+	background: #9a9b97;
+}
+
+.my-message .jspContainer {
+	width: 100% !important;
+}
 /* #Tablet (Portrait) 768px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
-	.row {
-		margin: 0px;
-	}
 	/*.my-message .time-message span.number-message {
 		display: initial;
 	}*/
@@ -180,9 +209,6 @@
 /* #Mobile (Landscape) 480px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.row {
-		margin: 0px;
-	}
 	.my-message .time-message span.number-message {
 		display: initial;
 	}
@@ -192,9 +218,6 @@
 /*  #Mobile (Portrait) 320px
 ---------------------------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 100px) and (max-width: 479px) {
-	.row {
-		margin: 0px;
-	}
 	.my-message .time-message span.number-message {
 		display: initial;
 	}
