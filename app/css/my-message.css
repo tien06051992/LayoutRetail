@@ -13,9 +13,12 @@
 */
 
 .my-message .list-all-message {
-	margin: 40px 0px;
+	margin: 15px 0px;
 }
 
+.my-message .cus-style-form-control h3.title {
+	margin-top: 34px;
+}
 .my-message .list-all-item-message {
 	max-height: 542px;
 	overflow-y: auto !important;
@@ -61,9 +64,10 @@
 	display: block;
 }
 .my-message .time-message p {
-	font-size: 13px;
+	font-size: 12px;
 	color: #898989;
 	padding: 0px 5px 0px 0px;
+	margin-bottom: 5px;
 }
 
 .my-message .active-message {
@@ -82,7 +86,7 @@
 
 
 .my-message .chat-message {
-	margin: 40px 0px;
+	margin: 15px 0px;
 }
 
 .my-message .item-chat {
