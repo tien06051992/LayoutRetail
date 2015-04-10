@@ -212,7 +212,7 @@ label.checkbox-label {
 	padding-top: 5px;
 }
 label.checkbox-label:before {
-    content: url('../images/img-checkbox-befrore.png');
+    content: url('../img/img-checkbox-befrore.png');
     display: inline-block;
     width: 14px;
     height: 30px;
@@ -221,7 +221,7 @@ label.checkbox-label:before {
 }
 
 input[type=checkbox]:checked + label.checkbox-label:before {
-    content: url('../images/img-checkbox-checked.png');
+    content: url('../img/img-checkbox-checked.png');
 }
 
 input[type=radio].cus-checkbox {
@@ -237,7 +237,7 @@ label.radio-label {
 	padding-top: 5px;
 }
 label.radio-label:before {
-    content: url('../images/img-radio-befrore.png');
+    content: url('../img/img-radio-befrore.png');
     display: inline-block;
     width: 14px;
     height: 30px;
@@ -246,7 +246,7 @@ label.radio-label:before {
 }
 
 input[type=radio]:checked + label.radio-label:before {
-    content: url('../images/img-radio-checked.png');
+    content: url('../img/img-radio-checked.png');
 }
 /* ==========================================================================
    Tien Le <tienle@agilsun.com> 's custom styles

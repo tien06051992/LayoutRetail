@@ -14,13 +14,15 @@
 
 .my-message .list-all-message {
 	margin: 15px 0px;
+	max-height: 542px;
+	overflow: auto;
 }
 
 .my-message .cus-style-form-control h3.title {
 	margin-top: 34px;
 }
 .my-message .list-all-item-message {
-	max-height: 542px;
+	/*max-height: 542px;*/
 	overflow-y: auto !important;
 	overflow-x: hidden !important;
 	background: #d7dbcc;
