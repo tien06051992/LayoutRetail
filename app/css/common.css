@@ -39,6 +39,7 @@ ul.ul-non-list-style {
 	background: none;
 	box-shadow: none;
 	outline-style: none;
+	text-shadow: 0px !important;
 }
 .btn-color-orange {
 	background: #ff9e28;
@@ -85,7 +86,7 @@ ul.ul-non-list-style {
 }
 .page-title ul li {
 	display: inline-block;
-	background: url('/app/img/border-page-title.png') no-repeat;
+	background: url('../images/border-page-title.png') no-repeat;
 	background-position: 100%; 
 	padding: 0px 20px;
 }
@@ -98,11 +99,27 @@ ul.ul-non-list-style {
 	margin-bottom: 0px;
 	color: #797878;
 }
+.retail-btn-group button.active,
+.retail-btn-group button:active,
+.retail-btn-group button:hover,
+.retail-btn-group button:focus{
+	background: #8bac24;
+  	outline: none !important; 
+	color: #fff;
+}
+.retail-btn-group button.btn-disabled{
+	pointer-events: none;
+	background: #8bac24;
+	border-color: #8bac24;
+  	outline: none !important; 
+  	color: #fff;
+}
 
 .page-title h2 {
 	color: #fff;
 }
 
+.page-title ul li a:hover,
 .page-title ul li a.active {
 	color: #fff;
 }
@@ -195,7 +212,7 @@ label.checkbox-label {
 	padding-top: 5px;
 }
 label.checkbox-label:before {
-    content: url('/app/img/img-checkbox-befrore.png');
+    content: url('../images/img-checkbox-befrore.png');
     display: inline-block;
     width: 14px;
     height: 30px;
@@ -204,7 +221,7 @@ label.checkbox-label:before {
 }
 
 input[type=checkbox]:checked + label.checkbox-label:before {
-    content: url('/app/img/img-checkbox-checked.png');
+    content: url('../images/img-checkbox-checked.png');
 }
 
 input[type=radio].cus-checkbox {
@@ -220,7 +237,7 @@ label.radio-label {
 	padding-top: 5px;
 }
 label.radio-label:before {
-    content: url('/app/img/img-radio-befrore.png');
+    content: url('../images/img-radio-befrore.png');
     display: inline-block;
     width: 14px;
     height: 30px;
@@ -229,7 +246,7 @@ label.radio-label:before {
 }
 
 input[type=radio]:checked + label.radio-label:before {
-    content: url('/app/img/img-radio-checked.png');
+    content: url('../images/img-radio-checked.png');
 }
 /* ==========================================================================
    Tien Le <tienle@agilsun.com> 's custom styles
@@ -268,7 +285,7 @@ input[type=radio]:checked + label.radio-label:before {
 	position: absolute;
 	right: -34px;
 	top: 0;
-	background: url('/app/img/triangle-title.png');
+	background: url('../images/triangle-title.png');
 }
 .view-style{
 	float: right;
@@ -324,7 +341,7 @@ input[type=radio]:checked + label.radio-label:before {
 .retail-modal .modal-content{
 	border-radius: 11px; 
 	-webkit-box-shadow: 1px 1px 5px 1px #3B3B3B;
-box-shadow: 1px 1px 5px 1px #3B3B3B;
+	box-shadow: 1px 1px 5px 1px #3B3B3B;
 }
 .retail-modal .modal-header{
 	background: #8bac24;
